@@ -69,6 +69,13 @@ public class Serializacion {
 
 }
 class Empleado implements Serializable {
+	
+	
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String nombre;
 	private double sueldo;
 	private Date fechaContrato;
@@ -108,6 +115,10 @@ class Empleado implements Serializable {
 
 class Administrador extends Empleado {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private double incentivo;
 	
 	
